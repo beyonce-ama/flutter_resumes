@@ -4,6 +4,7 @@ import 'arpon.dart';
 import 'carreon.dart'; 
 import 'gamboa.dart'; 
 import 'larin.dart'; 
+import 'macalino.dart'; 
 
 void main() {
   runApp(CupertinoApp(
@@ -63,6 +64,8 @@ class MyApp extends StatelessWidget {
                 Center(child: _buildMemberCard('Gamboa, Romel P.', 'images/4.jpg', context, Gamboa())),
                 SizedBox(height: 20),
                 Center(child: _buildMemberCard('Larin, Kayle Cedric C.', 'images/5.jpg', context, Larin())),
+                 SizedBox(height: 20),
+                Center(child: _buildMemberCard('Macalino, Rachelle Anne M.', 'images/6.jpg', context, Macalino())),
               ],
             ),
           ),
