@@ -50,7 +50,7 @@ class Carreon extends StatelessWidget {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(70),
                           child: Image.asset(
-                            'images/3.jpg',
+                            'assets/images/3.jpg',
                             height: 150,
                             width: 150,
                             fit: BoxFit.cover,

@@ -50,7 +50,7 @@ class Macalino extends StatelessWidget {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(70),
                           child: Image.asset(
-                            'images/6.jpg',
+                            'assets/images/6.jpg',
                             height: 150,
                             width: 150,
                             fit: BoxFit.cover,

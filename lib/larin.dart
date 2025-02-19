@@ -50,7 +50,7 @@ class Larin extends StatelessWidget {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(70),
                           child: Image.asset(
-                            'images/5.jpg',
+                            'assets/images/5.jpg',
                             height: 150,
                             width: 150,
                             fit: BoxFit.cover,

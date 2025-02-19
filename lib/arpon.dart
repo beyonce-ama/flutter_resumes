@@ -50,7 +50,7 @@ class Arpon extends StatelessWidget {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(70),
                           child: Image.asset(
-                            'images/2.jpg',
+                            'assets/images/2.jpg',
                             height: 150,
                             width: 150,
                             fit: BoxFit.cover,

@@ -50,7 +50,7 @@ class Gamboa extends StatelessWidget {
                         ClipRRect(
                          borderRadius: BorderRadius.circular(70),
                           child: Image.asset(
-                            'images/4.jpg',
+                            'assets/images/4.jpg',
                             height: 150,
                             width: 150,
                             fit: BoxFit.cover,

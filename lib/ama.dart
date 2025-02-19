@@ -50,7 +50,7 @@ class Ama extends StatelessWidget {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(70),
                           child: Image.asset(
-                            'images/1.jpg',
+                            'assets/images/1.jpg',
                             height: 150,
                             width: 150,
                             fit: BoxFit.cover,
