@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'ama.dart'; 
 import 'arpon.dart'; 
 import 'carreon.dart'; 
+import 'gamboa.dart'; 
 
 void main() {
   runApp(CupertinoApp(
@@ -57,6 +58,8 @@ class MyApp extends StatelessWidget {
                 Center(child: _buildMemberCard('Arpon, Jolas S.', 'images/2.jpg', context, Arpon())),
                 SizedBox(height: 20),
                 Center(child: _buildMemberCard('Carreon, Monica P.', 'images/3.jpg', context, Carreon())),
+                SizedBox(height: 20),
+                Center(child: _buildMemberCard('Gamboa, Romel P.', 'images/4.jpg', context, Gamboa())),
               ],
             ),
           ),
