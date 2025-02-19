@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'ama.dart'; 
+import 'arpon.dart'; 
 
 void main() {
   runApp(CupertinoApp(
@@ -51,6 +52,8 @@ class MyApp extends StatelessWidget {
                 ),
                 SizedBox(height: 30),
                 Center(child: _buildMemberCard('Ama, Beyonce N.', 'images/1.jpg', context, Ama())),
+                SizedBox(height: 20),
+                Center(child: _buildMemberCard('Arpon, Jolas S.', 'images/2.jpg', context, Arpon())),
               ],
             ),
           ),
