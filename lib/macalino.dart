@@ -15,12 +15,14 @@ class Macalino extends StatelessWidget {
         navigationBar: CupertinoNavigationBar(
           middle: Text(
             'Rachelle\'s Resume',
-            style: TextStyle(fontWeight: FontWeight.bold, color: CupertinoColors.white),
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: CupertinoColors.white),
             
           ),
              previousPageTitle: 'Back',
           backgroundColor: CupertinoColors.darkBackgroundGray,
         ),
+    backgroundColor: CupertinoColors.systemTeal,
+
         child: SafeArea(
           child: SingleChildScrollView(
             child: Padding(

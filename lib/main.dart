@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       navigationBar: CupertinoNavigationBar(
         middle: Text(
           'DevOps Resumes',
-          style: TextStyle(fontWeight: FontWeight.bold, color: CupertinoColors.white),
+          style: TextStyle(fontSize: 30, color: CupertinoColors.white),
         ),
         backgroundColor: CupertinoColors.darkBackgroundGray,
         trailing: CupertinoButton(
@@ -41,6 +41,8 @@ class MyApp extends StatelessWidget {
           },
         ),
       ),
+    backgroundColor: CupertinoColors.systemTeal,
+
       child: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
@@ -78,7 +80,7 @@ class MyApp extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width * 0.6,
       decoration: BoxDecoration(
-        color: CupertinoColors.systemGrey5,
+        color: CupertinoColors.white,
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
           BoxShadow(
