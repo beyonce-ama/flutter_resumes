@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       navigationBar: CupertinoNavigationBar(
         middle: Text(
           'DevOps Resumes',
-          style: TextStyle(fontSize: 30, color: CupertinoColors.white),
+          style: TextStyle(fontSize: 24, color: CupertinoColors.white),
         ),
         backgroundColor: CupertinoColors.darkBackgroundGray,
         trailing: CupertinoButton(

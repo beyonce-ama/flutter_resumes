@@ -15,7 +15,7 @@ class Ama extends StatelessWidget {
         navigationBar: CupertinoNavigationBar(
           middle: Text(
             'Beyonce\'s Resume',
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: CupertinoColors.white),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: CupertinoColors.white),
             
           ),
              previousPageTitle: 'Back',
